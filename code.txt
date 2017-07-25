@@ -1,0 +1,5 @@
+To generate classes from database schema:
+>> php doctrine.php orm:convert-mapping --from-database annotation models\generated
+
+To generate method getters and setters from existing classes.
+>> php doctrine.php orm:generate-entities --generate-methods=1 models\generated
